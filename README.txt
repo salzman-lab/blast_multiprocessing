@@ -14,3 +14,5 @@ The script can be run using a command of this form:
 sbatch /oak/stanford/groups/horence/george/blast_internal_parallelization/blast_internal_parallelization.sh /oak/stanford/groups/horence/george/blast_internal_parallelization/test_Nov1_2023 /oak/stanford/groups/horence/george/blast_internal_parallelization/test/test_data.tsv
 
 To change the BLAST script used, the user may modify the path to the BLAST bash script on line 12 in blast_internal_parallelization.py.
+
+A virtual environment specific to this procedure is provided.
