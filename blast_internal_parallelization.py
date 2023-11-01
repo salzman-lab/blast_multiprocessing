@@ -15,8 +15,8 @@ def blast(fasta, dummy):
 def main():
     
     ## The user sets a path to a SPLASH input and a working directory.
-    splash_input = sys.argv[1]
-    working_dir = sys.argv[2]
+    splash_input = sys.argv[2]
+    working_dir = sys.argv[1]
 
     ## Create and/or move to the working directory.  
     try:
