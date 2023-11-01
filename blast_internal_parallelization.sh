@@ -12,4 +12,4 @@
 
 source /oak/stanford/groups/horence/george/blast_internal_parallelization/environment/bin/activate
 
-python3 /oak/stanford/groups/horence/george/blast_internal_parallelization/blast_internal_parallelization.py $1 $2
+python3 blast_internal_parallelization.py $1 $2
