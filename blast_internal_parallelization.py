@@ -5,7 +5,7 @@ import multiprocessing as mp
 import glob
 import sys
 
-def blast(fasta, dummy):
+def blast_(fasta, dummy):
     """
     Simple helper to run BLAST. 
     """
@@ -68,7 +68,7 @@ def main():
     ## Use Python multiprocessing to submit a subprocess for each FASTA. 
     if __name__ == "__main__":
         with mp.Pool(workers) as p:
-            outs = p.starmap(blast, [(i,0) for i in glob.glob('11*fasta')])       
+            outs = p.starmap(blast_, [(i,0) for i in glob.glob('11*fasta')])       
 
     ## Load the FASTA input and BLAST output tables. 
     ## Except cases where the BLAST output is empty. 
