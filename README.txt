@@ -2,7 +2,7 @@ This is a simple script / Jupyter notebook which runs BLASTn on extendors from r
 
 The script takes two command-line arguments: 
     1. Path to a working directory. This can be a directory that exists, or a subdirectory to be created within an existing directory. 
-    2. Path to SPLASH output. This should have columns entitled 'most_freq_target_N' and 'cnt_most_freq_target_N'. 
+    2. Path to SPLASH output. This should have columns of the form of 'most_freq_target_N' and 'cnt_most_freq_target_N'. 
   
 The script uses Python's multiprocessing library to run BLAST on chunks of extendors in the SPLASH output. 
     1. In the working directory, FASTAs and BLAST output files are created as intermediates. 
