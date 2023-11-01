@@ -1,5 +1,4 @@
 #!/bin/bash
-#Single commented out SBATCH are active, more than that is inactive
 #SBATCH -p horence,normal
 #SBATCH --time=10:00:00                     # how much time to run
 #SBATCH --mem=20000                          # how much mem in MBs
